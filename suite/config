@@ -1,0 +1,47 @@
+/**
+*
+* Configuration file that contains all parameters needed by the automation framework. 
+* 
+**/
+
+build=1.1
+suiteDir=./suite
+
+progress.bar.enable=true
+
+email.enable=true
+email.host=smtp.gmail.com
+email.from=harri.automation@gmail.com
+email.password=harri123
+email.to=yaser@harri.com
+email.attach.log=true
+
+// --------Local Environment----------
+environment=localhost_env
+host.name=localhost
+host.platform=Windows
+host.port=4444
+host.protocol=http
+
+browser.type=chrome
+browser.version=42
+browser.url=http://beta.harri.com/
+
+webDriver.timeouts.seconds=20
+webDriver.delete.allCookies=true
+
+
+// --------Sauce Environment----------
+environment=sauce_env
+host.name=http://almared:2dedb19e-b6c3-43d8-8a0e-f7084fad5569@ondemand.saucelabs.com:80/wd/hub
+host.platform=windows
+host.port=4444
+host.protocol=https
+
+browser.type=firefox
+browser.version=7
+browser.url=http://beta.harri.com/
+
+webDriver.timeouts.seconds=10
+webDriver.delete.allCookies=true
+
