@@ -29,3 +29,34 @@
 2015-05-14 11:19:40,491 [main] INFO  boundaries.Executer - Execute command: ClickLinkCommand [locator=//*[@id="top"]/div/nav/div/span/ul/li[3]/a, locatorType=XPATH]
 2015-05-14 11:19:44,213 [main] INFO  boundaries.Executer - Execute command: TypeTextCommand [locator=username, locatorType=ID, value=emailstesting3@gmail.com]
 2015-05-14 11:19:57,189 [main] INFO  boundaries.Executer - Execute command: TypeTextCommand [locator=password, locatorType=ID, value=123123]
+2015-05-14 11:20:04,309 [main] INFO  boundaries.Executer - Execute command: ClickButtonCommand [locator=//*[@id="login-modal"]/div/div[2]/div/div/div[3]/div/div/div/div/h-form[1]/form/div[3]/button, locatorType=XPATH]
+2015-05-14 11:20:14,172 [main] INFO  boundaries.Executer - Execute command: WaitSecondsCommand [value=4, commandType=WAIT_IN_SECONDS]
+2015-05-14 11:20:18,173 [main] INFO  boundaries.Executer - Execute command: VerifyTextCommand [value=Logout, positive=true, commandType=VERIFY_TEXT]
+2015-05-14 11:20:19,618 [main] INFO  boundaries.Executer - Execute command: VerifyTextCommand [value=how to, positive=true, commandType=VERIFY_TEXT]
+2015-05-14 11:20:20,390 [main] INFO  boundaries.Executer - Clean environment: Environment [name=sauce_env, hostName=http://yaser_arafat:bdd12ca7-e985-4e1c-9e44-c78a3625e167@ondemand.saucelabs.com:80/wd/hub, hostPort=4444, hostProtocol=https, hostPlatform=windows, browserType=firefox, browserUrl=http://beta.harri.com/, browserVersion=7, webDriverTimeouts=10, webDriverDeleteAllCookies=true]
+2015-05-14 11:20:20,796 [main] INFO  boundaries.HTMLReport - Add report entry: ReportEntry [testName=Candidate  1 login, result=true, fileName=Candidate login.xml, bugId=-, testCaseId=-, browser=Sauce Labs, firefox 7, windows, sauce_env, timeInMillis=53. seconds]
+2015-05-14 11:20:20,798 [main] INFO  boundaries.Executer - 
+2015-05-14 11:20:20,798 [main] INFO  boundaries.Executer - **************************************************
+2015-05-14 11:20:20,798 [main] INFO  boundaries.Executer - Execute flow: Flow [id=1, name=Candidate 2 login, defect=null, testCaseId=null, environment=Environment [name=sauce_env, hostName=http://yaser_arafat:bdd12ca7-e985-4e1c-9e44-c78a3625e167@ondemand.saucelabs.com:80/wd/hub, hostPort=4444, hostProtocol=https, hostPlatform=windows, browserType=firefox, browserUrl=http://beta.harri.com/, browserVersion=7, webDriverTimeouts=10, webDriverDeleteAllCookies=true], fileName=C:\Users\Yaser\workspace\HarriAutomation\suite\Candidate Portal\Candidate login.xml, preFlow=null, listOfCommands=[ClickLinkCommand [locator=//*[@id="top"]/div/nav/div/span/ul/li[3]/a, locatorType=XPATH], VerifyElementCommand [locator=username, locatorType=ID, positive=false], TypeTextCommand [locator=username, locatorType=ID, value=emad.marei@harri.com], TypeTextCommand [locator=password, locatorType=ID, value=123123], ClickButtonCommand [locator=//*[@id="login-modal"]/div/div[2]/div/div/div[3]/div/div/div/div/h-form[1]/form/div[3]/button, locatorType=XPATH], WaitSecondsCommand [value=4, commandType=WAIT_IN_SECONDS], VerifyElementCommand [locator=//*[@id="harriApp"]/div[1]/div[2]/div/div/div/ng-include[3]/div/div[2]/a[2], locatorType=XPATH, positive=true]], inPreCycle=false]
+2015-05-14 11:20:20,798 [main] INFO  boundaries.Executer - **************************************************
+2015-05-14 11:20:20,798 [main] INFO  boundaries.Executer - Setup environment: Environment [name=sauce_env, hostName=http://yaser_arafat:bdd12ca7-e985-4e1c-9e44-c78a3625e167@ondemand.saucelabs.com:80/wd/hub, hostPort=4444, hostProtocol=https, hostPlatform=windows, browserType=firefox, browserUrl=http://beta.harri.com/, browserVersion=7, webDriverTimeouts=10, webDriverDeleteAllCookies=true]
+2015-05-14 11:20:38,296 [main] INFO  boundaries.Executer - Execute command: ClickLinkCommand [locator=//*[@id="top"]/div/nav/div/span/ul/li[3]/a, locatorType=XPATH]
+2015-05-14 11:20:47,943 [main] INFO  boundaries.Executer - Execute command: VerifyElementCommand [locator=username, locatorType=ID, positive=false]
+2015-05-14 11:20:50,770 [main] INFO  boundaries.Executer - Clean environment: Environment [name=sauce_env, hostName=http://yaser_arafat:bdd12ca7-e985-4e1c-9e44-c78a3625e167@ondemand.saucelabs.com:80/wd/hub, hostPort=4444, hostProtocol=https, hostPlatform=windows, browserType=firefox, browserUrl=http://beta.harri.com/, browserVersion=7, webDriverTimeouts=10, webDriverDeleteAllCookies=true]
+2015-05-14 11:20:51,814 [main] ERROR boundaries.Executer - java.lang.Exception: username is found
+java.lang.Exception: username is found
+	at entities.commands.VerifyElementCommand.execute(VerifyElementCommand.java:100)
+	at boundaries.Executer.executeCommand(Executer.java:530)
+	at boundaries.Executer.executeCommands(Executer.java:496)
+	at boundaries.Executer.executeFlow(Executer.java:273)
+	at boundaries.Executer.executeTheListOfFlows(Executer.java:100)
+	at main.Controller.test(Controller.java:110)
+	at Main.main(Main.java:55)
+2015-05-14 11:20:51,819 [main] INFO  boundaries.HTMLReport - Add report entry: ReportEntry [testName=Candidate 2 login, result=false, fileName=Candidate login.xml, bugId=-, testCaseId=-, browser=Sauce Labs, firefox 7, windows, sauce_env, timeInMillis=31. seconds]
+2015-05-14 11:20:51,819 [main] INFO  main.Controller - ------------------------------
+2015-05-14 11:20:51,819 [main] INFO  main.Controller - ...Tear down the test...
+2015-05-14 11:20:51,819 [main] INFO  main.Controller - ------------------------------
+2015-05-14 11:20:51,820 [main] INFO  boundaries.HTMLReport - Generate the HTML report in "C:\Users\Yaser\workspace\HarriAutomation\output\report"
+2015-05-14 11:20:51,836 [main] INFO  boundaries.Email - Sending email to: yaser@harri.com
+2015-05-14 11:21:04,901 [main] INFO  boundaries.Email - Email has been sent successfully
+2015-05-14 11:21:04,981 [main] INFO  main.Controller - output dir: C:\Users\Yaser\workspace\HarriAutomation\output
