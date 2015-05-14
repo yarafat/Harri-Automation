@@ -19,7 +19,7 @@ email.attach.log=true
 // --------Local Environment----------
 environment=localhost_env
 host.name=localhost
-host.platform=Windows
+host.platform=vista
 host.port=4444
 host.protocol=http
 
@@ -33,7 +33,7 @@ webDriver.delete.allCookies=true
 
 // --------Sauce Environment----------
 environment=sauce_env
-host.name=http://almared:2dedb19e-b6c3-43d8-8a0e-f7084fad5569@ondemand.saucelabs.com:80/wd/hub
+host.name=http://yaser_arafat:bdd12ca7-e985-4e1c-9e44-c78a3625e167@ondemand.saucelabs.com:80/wd/hub
 host.platform=windows
 host.port=4444
 host.protocol=https
