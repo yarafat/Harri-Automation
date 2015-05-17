@@ -13,13 +13,13 @@ email.enable=true
 email.host=smtp.gmail.com
 email.from=harri.automation@gmail.com
 email.password=harri123
-email.to=yaser@harri.com
+email.to=yaser@harri.com,sireen@harri.com,aziza@harri.com,emad@harri.com
 email.attach.log=true
 
 // --------Local Environment----------
 environment=localhost_env
 host.name=localhost
-host.platform=vista
+host.platform=windows
 host.port=4444
 host.protocol=http
 
@@ -27,7 +27,7 @@ browser.type=chrome
 browser.version=42
 browser.url=http://beta.harri.com/
 
-webDriver.timeouts.seconds=20
+webDriver.timeouts.seconds=10
 webDriver.delete.allCookies=true
 
 
