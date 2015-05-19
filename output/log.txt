@@ -1,51 +1,51 @@
-2015-05-14 15:04:11,165 [main] INFO  Main - Loading the config file "./suite/config.txt" is completed with the following params:
-2015-05-14 15:04:11,165 [main] INFO  Main - Config [build=1.1, suiteDir=./suite, reportDir=null, progressBarEnable=true, emailEnable=true, emailTo=yaser@harri.com, emailHost=smtp.gmail.com, emailFrom=harri.automation@gmail.com, emailPassword=harri123, emailAttachedLog=true, listOfEnvironments={sauce_env=Environment [name=sauce_env, hostName=http://yaser_arafat:bdd12ca7-e985-4e1c-9e44-c78a3625e167@ondemand.saucelabs.com:80/wd/hub, hostPort=4444, hostProtocol=https, hostPlatform=windows, browserType=firefox, browserUrl=http://beta.harri.com/, browserVersion=7, webDriverTimeouts=10, webDriverDeleteAllCookies=true], localhost_env=Environment [name=localhost_env, hostName=localhost, hostPort=4444, hostProtocol=http, hostPlatform=windows, browserType=chrome, browserUrl=http://beta.harri.com/, browserVersion=42, webDriverTimeouts=10, webDriverDeleteAllCookies=true]}]
-2015-05-14 15:04:12,180 [main] INFO  main.Controller - Supported Commands:
-2015-05-14 15:04:12,181 [main] INFO  main.Controller - waitseconds
-2015-05-14 15:04:12,181 [main] INFO  main.Controller - clicklink
-2015-05-14 15:04:12,181 [main] INFO  main.Controller - clickbutton
-2015-05-14 15:04:12,181 [main] INFO  main.Controller - typetext
-2015-05-14 15:04:12,181 [main] INFO  main.Controller - navigate
-2015-05-14 15:04:12,181 [main] INFO  main.Controller - verifytext
-2015-05-14 15:04:12,181 [main] INFO  main.Controller - select
-2015-05-14 15:04:12,181 [main] INFO  main.Controller - checkbox
-2015-05-14 15:04:12,181 [main] INFO  main.Controller - selectradiobutton
-2015-05-14 15:04:12,181 [main] INFO  main.Controller - verifyelement
-2015-05-14 15:04:12,181 [main] INFO  main.Controller - verifylink
-2015-05-14 15:04:12,181 [main] INFO  main.Controller - 
-2015-05-14 15:04:12,181 [main] INFO  main.Controller - ------------------------------
-2015-05-14 15:04:12,182 [main] INFO  main.Controller - ...Setup the test...
-2015-05-14 15:04:12,182 [main] INFO  main.Controller - ------------------------------
-2015-05-14 15:04:12,186 [main] INFO  boundaries.HTMLReport - Initialize an Html report with title "Automation Report"
-2015-05-14 15:04:12,186 [main] INFO  main.Controller - ------------------------------
-2015-05-14 15:04:12,186 [main] INFO  main.Controller - ...Start the test...
-2015-05-14 15:04:12,186 [main] INFO  main.Controller - ------------------------------
-2015-05-14 15:04:12,186 [main] INFO  main.Controller - Parsing the file "C:\Users\Yaser\workspace\HarriAutomation\suite\Candidate Portal\Candidate login.xml"
-2015-05-14 15:04:12,210 [main] INFO  boundaries.Executer - 
-2015-05-14 15:04:12,210 [main] INFO  boundaries.Executer - **************************************************
-2015-05-14 15:04:12,210 [main] INFO  boundaries.Executer - Execute flow: Flow [id=0, name=Candidate  1 login, defect=null, testCaseId=null, environment=Environment [name=localhost_env, hostName=localhost, hostPort=4444, hostProtocol=http, hostPlatform=windows, browserType=chrome, browserUrl=http://beta.harri.com/, browserVersion=42, webDriverTimeouts=10, webDriverDeleteAllCookies=true], fileName=C:\Users\Yaser\workspace\HarriAutomation\suite\Candidate Portal\Candidate login.xml, preFlow=null, listOfCommands=[ClickLinkCommand [locator=//*[@id="top"]/div/nav/div/span/ul/li[3]/a, locatorType=XPATH], WaitSecondsCommand [value=4, commandType=WAIT_IN_SECONDS], TypeTextCommand [locator=username, locatorType=ID, value=emailstesting3@gmail.com], TypeTextCommand [locator=password, locatorType=ID, value=123123], ClickButtonCommand [locator=//*[@id="login-modal"]/div/div[2]/div/div/div[3]/div/div/div/div/h-form[1]/form/div[3]/button, locatorType=XPATH], WaitSecondsCommand [value=4, commandType=WAIT_IN_SECONDS], VerifyTextCommand [value=Logout, positive=true, commandType=VERIFY_TEXT], VerifyTextCommand [value=how to, positive=true, commandType=VERIFY_TEXT]], inPreCycle=false]
-2015-05-14 15:04:12,210 [main] INFO  boundaries.Executer - **************************************************
-2015-05-14 15:04:12,210 [main] INFO  boundaries.Executer - Setup environment: Environment [name=localhost_env, hostName=localhost, hostPort=4444, hostProtocol=http, hostPlatform=windows, browserType=chrome, browserUrl=http://beta.harri.com/, browserVersion=42, webDriverTimeouts=10, webDriverDeleteAllCookies=true]
-2015-05-14 15:04:21,366 [main] INFO  boundaries.Executer - Execute command: ClickLinkCommand [locator=//*[@id="top"]/div/nav/div/span/ul/li[3]/a, locatorType=XPATH]
-2015-05-14 15:04:21,453 [main] INFO  boundaries.Executer - Execute command: WaitSecondsCommand [value=4, commandType=WAIT_IN_SECONDS]
-2015-05-14 15:04:25,457 [main] INFO  boundaries.Executer - Execute command: TypeTextCommand [locator=username, locatorType=ID, value=emailstesting3@gmail.com]
-2015-05-14 15:04:25,664 [main] INFO  boundaries.Executer - Execute command: TypeTextCommand [locator=password, locatorType=ID, value=123123]
-2015-05-14 15:04:25,808 [main] INFO  boundaries.Executer - Execute command: ClickButtonCommand [locator=//*[@id="login-modal"]/div/div[2]/div/div/div[3]/div/div/div/div/h-form[1]/form/div[3]/button, locatorType=XPATH]
-2015-05-14 15:04:25,912 [main] INFO  boundaries.Executer - Execute command: WaitSecondsCommand [value=4, commandType=WAIT_IN_SECONDS]
-2015-05-14 15:04:29,922 [main] INFO  boundaries.Executer - Execute command: VerifyTextCommand [value=Logout, positive=true, commandType=VERIFY_TEXT]
-2015-05-14 15:04:29,969 [main] INFO  boundaries.Executer - Execute command: VerifyTextCommand [value=how to, positive=true, commandType=VERIFY_TEXT]
-2015-05-14 15:04:29,996 [main] INFO  boundaries.Executer - Clean environment: Environment [name=localhost_env, hostName=localhost, hostPort=4444, hostProtocol=http, hostPlatform=windows, browserType=chrome, browserUrl=http://beta.harri.com/, browserVersion=42, webDriverTimeouts=10, webDriverDeleteAllCookies=true]
-2015-05-14 15:04:31,347 [main] INFO  boundaries.HTMLReport - Add report entry: ReportEntry [testName=Candidate  1 login, result=true, fileName=Candidate login.xml, bugId=-, testCaseId=-, browser=Local Host, chrome 42, windows, localhost_env, timeInMillis=19. seconds]
-2015-05-14 15:04:31,351 [main] INFO  boundaries.Executer - 
-2015-05-14 15:04:31,351 [main] INFO  boundaries.Executer - **************************************************
-2015-05-14 15:04:31,351 [main] INFO  boundaries.Executer - Execute flow: Flow [id=1, name=Candidate 2 login, defect=null, testCaseId=null, environment=Environment [name=localhost_env, hostName=localhost, hostPort=4444, hostProtocol=http, hostPlatform=windows, browserType=chrome, browserUrl=http://beta.harri.com/, browserVersion=42, webDriverTimeouts=10, webDriverDeleteAllCookies=true], fileName=C:\Users\Yaser\workspace\HarriAutomation\suite\Candidate Portal\Candidate login.xml, preFlow=null, listOfCommands=[ClickLinkCommand [locator=//*[@id="top"]/div/nav/div/span/ul/li[3]/a, locatorType=XPATH], VerifyElementCommand [locator=username, locatorType=ID, positive=false], TypeTextCommand [locator=username, locatorType=ID, value=emad.marei@harri.com], TypeTextCommand [locator=password, locatorType=ID, value=123123], ClickButtonCommand [locator=//*[@id="login-modal"]/div/div[2]/div/div/div[3]/div/div/div/div/h-form[1]/form/div[3]/button, locatorType=XPATH], WaitSecondsCommand [value=4, commandType=WAIT_IN_SECONDS], VerifyElementCommand [locator=//*[@id="harriApp"]/div[1]/div[2]/div/div/div/ng-include[3]/div/div[2]/a[2], locatorType=XPATH, positive=true]], inPreCycle=false]
-2015-05-14 15:04:31,351 [main] INFO  boundaries.Executer - **************************************************
-2015-05-14 15:04:31,351 [main] INFO  boundaries.Executer - Setup environment: Environment [name=localhost_env, hostName=localhost, hostPort=4444, hostProtocol=http, hostPlatform=windows, browserType=chrome, browserUrl=http://beta.harri.com/, browserVersion=42, webDriverTimeouts=10, webDriverDeleteAllCookies=true]
-2015-05-14 15:04:39,965 [main] INFO  boundaries.Executer - Execute command: ClickLinkCommand [locator=//*[@id="top"]/div/nav/div/span/ul/li[3]/a, locatorType=XPATH]
-2015-05-14 15:04:40,056 [main] INFO  boundaries.Executer - Execute command: VerifyElementCommand [locator=username, locatorType=ID, positive=false]
-2015-05-14 15:04:41,551 [main] INFO  boundaries.Executer - Execute command: TypeTextCommand [locator=username, locatorType=ID, value=emad.marei@harri.com]
-2015-05-14 15:04:41,578 [main] INFO  boundaries.Executer - Clean environment: Environment [name=localhost_env, hostName=localhost, hostPort=4444, hostProtocol=http, hostPlatform=windows, browserType=chrome, browserUrl=http://beta.harri.com/, browserVersion=42, webDriverTimeouts=10, webDriverDeleteAllCookies=true]
-2015-05-14 15:04:42,808 [main] ERROR boundaries.Executer - java.lang.Exception: locator not found: username
+2015-05-17 15:52:29,690 [main] INFO  Main - Loading the config file "./suite/config.txt" is completed with the following params:
+2015-05-17 15:52:29,690 [main] INFO  Main - Config [build=1.1, suiteDir=./suite, reportDir=null, progressBarEnable=true, emailEnable=true, emailTo=yaser@harri.com,sireen@harri.com,aziza@harri.com,emad@harri.com, emailHost=smtp.gmail.com, emailFrom=harri.automation@gmail.com, emailPassword=harri123, emailAttachedLog=true, listOfEnvironments={sauce_env=Environment [name=sauce_env, hostName=http://yaser_arafat:bdd12ca7-e985-4e1c-9e44-c78a3625e167@ondemand.saucelabs.com:80/wd/hub, hostPort=4444, hostProtocol=https, hostPlatform=windows, browserType=firefox, browserUrl=http://beta.harri.com/, browserVersion=7, webDriverTimeouts=10, webDriverDeleteAllCookies=true], localhost_env=Environment [name=localhost_env, hostName=localhost, hostPort=4444, hostProtocol=http, hostPlatform=windows, browserType=chrome, browserUrl=http://beta.harri.com/, browserVersion=42, webDriverTimeouts=10, webDriverDeleteAllCookies=true]}]
+2015-05-17 15:52:30,775 [main] INFO  main.Controller - Supported Commands:
+2015-05-17 15:52:30,793 [main] INFO  main.Controller - waitseconds
+2015-05-17 15:52:30,793 [main] INFO  main.Controller - clicklink
+2015-05-17 15:52:30,793 [main] INFO  main.Controller - clickbutton
+2015-05-17 15:52:30,793 [main] INFO  main.Controller - typetext
+2015-05-17 15:52:30,793 [main] INFO  main.Controller - navigate
+2015-05-17 15:52:30,793 [main] INFO  main.Controller - verifytext
+2015-05-17 15:52:30,793 [main] INFO  main.Controller - select
+2015-05-17 15:52:30,793 [main] INFO  main.Controller - checkbox
+2015-05-17 15:52:30,793 [main] INFO  main.Controller - selectradiobutton
+2015-05-17 15:52:30,793 [main] INFO  main.Controller - verifyelement
+2015-05-17 15:52:30,793 [main] INFO  main.Controller - verifylink
+2015-05-17 15:52:30,793 [main] INFO  main.Controller - 
+2015-05-17 15:52:30,793 [main] INFO  main.Controller - ------------------------------
+2015-05-17 15:52:30,793 [main] INFO  main.Controller - ...Setup the test...
+2015-05-17 15:52:30,793 [main] INFO  main.Controller - ------------------------------
+2015-05-17 15:52:30,840 [main] INFO  boundaries.HTMLReport - Initialize an Html report with title "Automation Report"
+2015-05-17 15:52:30,903 [main] INFO  main.Controller - ------------------------------
+2015-05-17 15:52:30,903 [main] INFO  main.Controller - ...Start the test...
+2015-05-17 15:52:30,903 [main] INFO  main.Controller - ------------------------------
+2015-05-17 15:52:30,903 [main] INFO  main.Controller - Parsing the file "C:\Users\Yaser\workspace\HarriAutomation\suite\Candidate Portal\Candidate login.xml"
+2015-05-17 15:52:31,514 [main] INFO  boundaries.Executer - 
+2015-05-17 15:52:31,514 [main] INFO  boundaries.Executer - **************************************************
+2015-05-17 15:52:31,514 [main] INFO  boundaries.Executer - Execute flow: Flow [id=0, name=Candidate  1 login, defect=null, testCaseId=null, environment=Environment [name=localhost_env, hostName=localhost, hostPort=4444, hostProtocol=http, hostPlatform=windows, browserType=chrome, browserUrl=http://beta.harri.com/, browserVersion=42, webDriverTimeouts=10, webDriverDeleteAllCookies=true], fileName=C:\Users\Yaser\workspace\HarriAutomation\suite\Candidate Portal\Candidate login.xml, preFlow=null, listOfCommands=[ClickLinkCommand [locator=//*[@id="top"]/div/nav/div/span/ul/li[3]/a, locatorType=XPATH], WaitSecondsCommand [value=4, commandType=WAIT_IN_SECONDS], TypeTextCommand [locator=username, locatorType=ID, value=emailstesting3@gmail.com], TypeTextCommand [locator=password, locatorType=ID, value=123123], ClickButtonCommand [locator=//*[@id="login-modal"]/div/div[2]/div/div/div[3]/div/div/div/div/h-form[1]/form/div[3]/button, locatorType=XPATH], WaitSecondsCommand [value=4, commandType=WAIT_IN_SECONDS], VerifyTextCommand [value=Logout, positive=true, commandType=VERIFY_TEXT], VerifyTextCommand [value=how to, positive=true, commandType=VERIFY_TEXT]], inPreCycle=false]
+2015-05-17 15:52:31,514 [main] INFO  boundaries.Executer - **************************************************
+2015-05-17 15:52:31,514 [main] INFO  boundaries.Executer - Setup environment: Environment [name=localhost_env, hostName=localhost, hostPort=4444, hostProtocol=http, hostPlatform=windows, browserType=chrome, browserUrl=http://beta.harri.com/, browserVersion=42, webDriverTimeouts=10, webDriverDeleteAllCookies=true]
+2015-05-17 15:52:55,475 [main] INFO  boundaries.Executer - Execute command: ClickLinkCommand [locator=//*[@id="top"]/div/nav/div/span/ul/li[3]/a, locatorType=XPATH]
+2015-05-17 15:52:56,074 [main] INFO  boundaries.Executer - Execute command: WaitSecondsCommand [value=4, commandType=WAIT_IN_SECONDS]
+2015-05-17 15:53:00,093 [main] INFO  boundaries.Executer - Execute command: TypeTextCommand [locator=username, locatorType=ID, value=emailstesting3@gmail.com]
+2015-05-17 15:53:00,309 [main] INFO  boundaries.Executer - Execute command: TypeTextCommand [locator=password, locatorType=ID, value=123123]
+2015-05-17 15:53:00,469 [main] INFO  boundaries.Executer - Execute command: ClickButtonCommand [locator=//*[@id="login-modal"]/div/div[2]/div/div/div[3]/div/div/div/div/h-form[1]/form/div[3]/button, locatorType=XPATH]
+2015-05-17 15:53:00,553 [main] INFO  boundaries.Executer - Execute command: WaitSecondsCommand [value=4, commandType=WAIT_IN_SECONDS]
+2015-05-17 15:53:04,567 [main] INFO  boundaries.Executer - Execute command: VerifyTextCommand [value=Logout, positive=true, commandType=VERIFY_TEXT]
+2015-05-17 15:53:04,584 [main] INFO  boundaries.Executer - Execute command: VerifyTextCommand [value=how to, positive=true, commandType=VERIFY_TEXT]
+2015-05-17 15:53:04,599 [main] INFO  boundaries.Executer - Clean environment: Environment [name=localhost_env, hostName=localhost, hostPort=4444, hostProtocol=http, hostPlatform=windows, browserType=chrome, browserUrl=http://beta.harri.com/, browserVersion=42, webDriverTimeouts=10, webDriverDeleteAllCookies=true]
+2015-05-17 15:53:05,912 [main] INFO  boundaries.HTMLReport - Add report entry: ReportEntry [testName=Candidate  1 login, result=true, fileName=Candidate login.xml, bugId=-, testCaseId=-, browser=Local Host, chrome 42, windows, localhost_env, timeInMillis=34. seconds]
+2015-05-17 15:53:05,920 [main] INFO  boundaries.Executer - 
+2015-05-17 15:53:05,920 [main] INFO  boundaries.Executer - **************************************************
+2015-05-17 15:53:05,920 [main] INFO  boundaries.Executer - Execute flow: Flow [id=1, name=Candidate 2 login, defect=null, testCaseId=null, environment=Environment [name=localhost_env, hostName=localhost, hostPort=4444, hostProtocol=http, hostPlatform=windows, browserType=chrome, browserUrl=http://beta.harri.com/, browserVersion=42, webDriverTimeouts=10, webDriverDeleteAllCookies=true], fileName=C:\Users\Yaser\workspace\HarriAutomation\suite\Candidate Portal\Candidate login.xml, preFlow=null, listOfCommands=[ClickLinkCommand [locator=//*[@id="top"]/div/nav/div/span/ul/li[3]/a, locatorType=XPATH], VerifyElementCommand [locator=username, locatorType=ID, positive=false], TypeTextCommand [locator=username, locatorType=ID, value=emad.marei@harri.com], TypeTextCommand [locator=password, locatorType=ID, value=123123], ClickButtonCommand [locator=//*[@id="login-modal"]/div/div[2]/div/div/div[3]/div/div/div/div/h-form[1]/form/div[3]/button, locatorType=XPATH], WaitSecondsCommand [value=4, commandType=WAIT_IN_SECONDS], VerifyElementCommand [locator=//*[@id="harriApp"]/div[1]/div[2]/div/div/div/ng-include[3]/div/div[2]/a[2], locatorType=XPATH, positive=true]], inPreCycle=false]
+2015-05-17 15:53:05,920 [main] INFO  boundaries.Executer - **************************************************
+2015-05-17 15:53:05,920 [main] INFO  boundaries.Executer - Setup environment: Environment [name=localhost_env, hostName=localhost, hostPort=4444, hostProtocol=http, hostPlatform=windows, browserType=chrome, browserUrl=http://beta.harri.com/, browserVersion=42, webDriverTimeouts=10, webDriverDeleteAllCookies=true]
+2015-05-17 15:53:15,624 [main] INFO  boundaries.Executer - Execute command: ClickLinkCommand [locator=//*[@id="top"]/div/nav/div/span/ul/li[3]/a, locatorType=XPATH]
+2015-05-17 15:53:15,695 [main] INFO  boundaries.Executer - Execute command: VerifyElementCommand [locator=username, locatorType=ID, positive=false]
+2015-05-17 15:53:15,743 [main] INFO  boundaries.Executer - Execute command: TypeTextCommand [locator=username, locatorType=ID, value=emad.marei@harri.com]
+2015-05-17 15:53:15,827 [main] INFO  boundaries.Executer - Clean environment: Environment [name=localhost_env, hostName=localhost, hostPort=4444, hostProtocol=http, hostPlatform=windows, browserType=chrome, browserUrl=http://beta.harri.com/, browserVersion=42, webDriverTimeouts=10, webDriverDeleteAllCookies=true]
+2015-05-17 15:53:17,055 [main] ERROR boundaries.Executer - java.lang.Exception: locator not found: username
 java.lang.Exception: locator not found: username
 	at entities.commands.TypeTextCommand.execute(TypeTextCommand.java:41)
 	at boundaries.Executer.executeCommand(Executer.java:522)
@@ -54,11 +54,11 @@ java.lang.Exception: locator not found: username
 	at boundaries.Executer.executeTheListOfFlows(Executer.java:100)
 	at main.Controller.test(Controller.java:110)
 	at Main.main(Main.java:55)
-2015-05-14 15:04:42,811 [main] INFO  boundaries.HTMLReport - Add report entry: ReportEntry [testName=Candidate 2 login, result=false, fileName=Candidate login.xml, bugId=-, testCaseId=-, browser=Local Host, chrome 42, windows, localhost_env, timeInMillis=11. seconds]
-2015-05-14 15:04:42,811 [main] INFO  main.Controller - ------------------------------
-2015-05-14 15:04:42,811 [main] INFO  main.Controller - ...Tear down the test...
-2015-05-14 15:04:42,811 [main] INFO  main.Controller - ------------------------------
-2015-05-14 15:04:42,811 [main] INFO  boundaries.HTMLReport - Generate the HTML report in "C:\Users\Yaser\workspace\HarriAutomation\output\report"
-2015-05-14 15:04:42,832 [main] INFO  boundaries.Email - Sending email to: yaser@harri.com
-2015-05-14 15:04:55,602 [main] INFO  boundaries.Email - Email has been sent successfully
-2015-05-14 15:04:55,673 [main] INFO  main.Controller - output dir: C:\Users\Yaser\workspace\HarriAutomation\output
+2015-05-17 15:53:17,072 [main] INFO  boundaries.HTMLReport - Add report entry: ReportEntry [testName=Candidate 2 login, result=false, fileName=Candidate login.xml, bugId=-, testCaseId=-, browser=Local Host, chrome 42, windows, localhost_env, timeInMillis=11. seconds]
+2015-05-17 15:53:17,072 [main] INFO  main.Controller - ------------------------------
+2015-05-17 15:53:17,072 [main] INFO  main.Controller - ...Tear down the test...
+2015-05-17 15:53:17,072 [main] INFO  main.Controller - ------------------------------
+2015-05-17 15:53:17,072 [main] INFO  boundaries.HTMLReport - Generate the HTML report in "C:\Users\Yaser\workspace\HarriAutomation\output\report"
+2015-05-17 15:53:17,151 [main] INFO  boundaries.Email - Sending email to: yaser@harri.com,sireen@harri.com,aziza@harri.com,emad@harri.com
+2015-05-17 15:53:31,858 [main] INFO  boundaries.Email - Email has been sent successfully
+2015-05-17 15:53:31,922 [main] INFO  main.Controller - output dir: C:\Users\Yaser\workspace\HarriAutomation\output

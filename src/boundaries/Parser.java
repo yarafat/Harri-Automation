@@ -47,6 +47,7 @@ public class Parser extends HandlerBase {
 
 	static String filePath;
 	String elementType;
+	private String value;
 
 	private static Logger logger = Logger.getLogger(Parser.class);
 
@@ -73,6 +74,7 @@ public class Parser extends HandlerBase {
 	public void startElement(String name, AttributeList attrs)
 			throws SAXException {
 		LocatorType locatorType = null;
+		value=null;
 
 		if (name.equals(Constants.TEST)) {
 
@@ -179,12 +181,20 @@ public class Parser extends HandlerBase {
 			listOfCommands = new ArrayList<Command>();
 			flow = new Flow();
 			elementType = null;
+			value=null;
 		}
 	}
 
 	@Override
 	public void characters(char buf[], int offset, int len) throws SAXException {
-		String value = new String(buf, offset, len);
+		if (value == null)
+		{
+		    value = new String(buf, offset, len);
+		} else {
+		    String tmp = value;
+		    value = tmp + value;
+		}
+		
 
 		// Temporary solution for special character "]" in Sax parser.
 		value = value.replaceAll("ampbra;", "]");
