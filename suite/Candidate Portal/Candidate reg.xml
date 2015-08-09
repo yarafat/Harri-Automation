@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Sax parser escape characters.
+] >>	"ampbra;"
+XML escape characters
+' >>    "&apos;"
+--> 
+
+<test>
+	<!-- This is a flow to test "candidate reg funnel" functionality-->
+		 <flow name='Candidate reg funnel ' env='sauce_env'>
+		 <waitseconds>6</waitseconds>
+		 <clicklink locatortype='xpath'>//*[@id='top'ampbra;/div/nav/div/span/ul/li[4ampbra;/a</clicklink>
+		 <waitseconds>4</waitseconds>
+		 <clickbutton locatortype ='xpath' > //*[@id='join-modal'ampbra;/div/div[2ampbra;/div/div/div/div/div/h-form[1ampbra;/div/div[3ampbra;/button</clickbutton>
+		 <waitseconds>5</waitseconds>
+		 <typetext locatortype='id'  locator='firstname'>Sireen</typetext>
+		 <waitseconds>3</waitseconds>
+		 <typetext locatortype='id' locator='lastname'>Adeela</typetext>
+		 <waitseconds>3</waitseconds>
+		 <typetext locatortype='id' locator='email'>issa@khalil</typetext>
+		 <waitseconds>3</waitseconds>
+		 <typetext locatortype='id' locator='phone'>0599589259</typetext>
+		 <waitseconds>3</waitseconds>
+		 <typetext locatortype='id' locator='password'>123123</typetext>
+		 <waitseconds>3</waitseconds>
+		 <typetext locatortype='name' locator='confirm_password'>123123</typetext>
+		 <waitseconds>4</waitseconds>	
+		 <clickbutton locatortype="xpath">//*[@id='join-modal'ampbra;/div/div[2ampbra;/div/div/div/div/div/h-form[2ampbra;/div[2ampbra;/form/div[7ampbra;/button </clickbutton>
+		 <waitseconds>4</waitseconds>
+		 <clickbutton locatortype='xpath'>//*[@id="user_type-0"ampbra;</clickbutton>
+		 <waitseconds>4</waitseconds>
+		 <clickbutton locatortype="xpath">//*[@id='join-modal'ampbra;/div/div[2ampbra;/div/div/div/div/div/h-form[3ampbra;/div/form/div[3ampbra;/button</clickbutton>		 
+		 <waitseconds>4</waitseconds>
+		 <clickbutton locatortype="xpath">//*[@id='join-modal'ampbra;/div/div[2ampbra;/div/div/div/div/div/h-form[19ampbra;/div/form/div[3ampbra;/button</clickbutton>
+		 <waitseconds>6</waitseconds>
+		 <clickbutton locatortype="xpath" >//*[@id="select2-chosen-40"ampbra;</clickbutton>
+		 <waitseconds>2</waitseconds>
+		 <typetext locatortype="id" locator='s2id_autogen40_search' >J.N. Oliva Architecture Interiors Design</typetext>
+		 <waitseconds>6</waitseconds>
+		 <clickbutton locatortype="xpath">//strong[contains(text(),'J.N. Oliva Architecture Interiors Design')ampbra;</clickbutton>
+		 <waitseconds>3</waitseconds>
+		 <clickbutton locatortype='xpath'>//*[@id='join-modal'ampbra;/div/div[2ampbra;/div/div/div/div/div/h-form[9ampbra;/div/form/div[4ampbra;/div[2ampbra;/button</clickbutton>
+		 <waitseconds>3</waitseconds>
+		 <clickbutton locatortype='xpath'>//*[@id="join-modal"ampbra;/div/div[2ampbra;/div/div/div/div/div/h-form[10ampbra;/div[2ampbra;/form/div[2ampbra;/span</clickbutton>
+		 <waitseconds>5</waitseconds>
+		 <clickbutton locatortype='xpath'>//*[contains(text(),'Bartender')ampbra;</clickbutton>
+		 <waitseconds>2</waitseconds>
+		 <clickbutton locatortyoe='xpath'>//*[@id="-month"ampbra;/span</clickbutton>
+		 <waitseconds>2</waitseconds>
+		 <clickbutton locatortype='xpath'>//*[contains(text(),'March')ampbra;</clickbutton>
+		 <waitseconds>2</waitseconds>
+		 <clickbutton locatortype='xpath'>//*[@id="-year"ampbra;/span</clickbutton>
+		 <waitseconds>2</waitseconds>
+		 <clickbutton locatortype='xpath'>//*[contains(text(),'2010')ampbra;</clickbutton>
+		 <waitseconds>8</waitseconds>
+		 <clickbutton locatortype='xpath'>//*[@id='join-modal'ampbra;/div/div[2ampbra;/div/div/div/div/div/h-form[10ampbra;/div[2ampbra;/form/div[7ampbra;/button</clickbutton>
+		 <waitseconds>8</waitseconds>
+		 <clickbutton locatortype='xpath'>//*[contains(text(),'Name of your School, College, or University')ampbra;</clickbutton>
+		 <waitseconds>3</waitseconds>
+		 <typetext locatortype='xpath' locator='//*[@id="s2id_autogen26_search"]'>Birziet University</typetext>
+		 <waitseconds>4</waitseconds>
+		 <clickbutton locatortype='xpath'>//*[contains(text(),'Birziet University')ampbra;</clickbutton>
+		 <waitseconds>6</waitseconds>
+		 <clickbutton locatortype='xpath' >//*[@id='join-modal'ampbra;/div/div[2ampbra;/div/div/div/div/div/h-form[11ampbra;/div/form/div[6ampbra;/button[2ampbra;</clickbutton>
+		 <waitseconds>6</waitseconds>	 
+	  </flow>	
+	  
+
+	
+	
+	
+</test>

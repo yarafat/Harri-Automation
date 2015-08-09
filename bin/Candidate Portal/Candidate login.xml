@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Sax parser escape characters.
+] >>	"ampbra;"
+XML escape characters
+' >>    "&apos;"
+--> 
+
+<test>
+	<!-- This is a flow to test "Employer login" functionality-->
+		 <flow name='Candidate  1 login' env='localhost_env'>
+		
+		<clicklink locatortype='xpath'>//*[@id="top"ampbra;/div/nav/div/span/ul/li[3ampbra;/a</clicklink>
+		<waitseconds>4</waitseconds>
+		<typetext  locatortype='id' locator='username'>emailstesting3@gmail.com</typetext>
+		<typetext locatortype='id' locator='password'>123123</typetext>
+		<clickbutton locatortype='xpath'>//*[@id="login-modal"ampbra;/div/div[2ampbra;/div/div/div[3ampbra;/div/div/div/div/h-form[1ampbra;/form/div[3ampbra;/button</clickbutton>
+		<waitseconds>4</waitseconds>
+		<verifytext positive='true'>Logout</verifytext>
+		<verifytext positive='true'>how to</verifytext>
+	  </flow>	
+
+	<flow name='Candidate 2 login' env='localhost_env'>
+		
+		<clicklink locatortype='xpath'>//*[@id="top"ampbra;/div/nav/div/span/ul/li[3ampbra;/a</clicklink>
+		<verifyelement locatortype='id' positive='false'>username</verifyelement>
+		<typetext  locatortype='id' locator='username'>emad.marei@harri.com</typetext>
+		<typetext locatortype='id' locator='password'>123123</typetext>
+		<clickbutton locatortype='xpath'>//*[@id="login-modal"ampbra;/div/div[2ampbra;/div/div/div[3ampbra;/div/div/div/div/h-form[1ampbra;/form/div[3ampbra;/button</clickbutton>
+		<waitseconds>4</waitseconds>
+		<verifyelement locatortype='xpath' positive='true'>//*[@id="harriApp"ampbra;/div[1ampbra;/div[2ampbra;/div/div/div/ng-include[3ampbra;/div/div[2ampbra;/a[2ampbra;</verifyelement>
+		
+	</flow>	
+	
+	
+</test>
